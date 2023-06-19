@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="form.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Javascript</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Pendaftaran</h3>
+        </div>
+        <form action>
+            <label for="nama">Nama</label><br>
+            <input type="text" placeholder="Nama anda" id="nama"><br><br>
+            <label for="nim">NIM</label><br>
+            <input type="text" placeholder="NIM anda" id="nim"><br>
+            <p>Peminatan pada bidang:</p>
+
+            <input type="radio" name="peminatan" id="programming" value="programming">
+            <label for="programming">Programing</label><br>
+            <input type="radio" name="peminatan" id="desain" value="desain">
+            <label for="programming">Desain</label><br>
+            <input type="radio" name="peminatan" id="jaringan" value="jaringan">
+            <label for="programming">Jaringan</label><br>
+            <input type="radio" name="peminatan" id="data" value="data">
+            <label for="programming">Data</label><br>
+
+            <label for>Alamat</label><br>
+            <textarea name="alamat" id="alamat" placeholder="Tulis alamat mu disini" cols="30" rows="10"></textarea><br>
+            <p>
+                Angkatan :
+                <select id="angkatan">
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                </select>
+            </p>
+            <label for="birthdaytime">Tanggal Lahir:</label><br>
+            <input type="date" id="birthdaytime" name="birthdaytime"><br><br>
+            <button type="submit" onclick="kirimData()">submit</button>
+
+        </form>
+    </div>
+    <script src="form.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+body {
+    background-image: url(https://www.play-verse.com/wp-content/uploads/2022/10/Harvest-Moon-BtN-Rating_10-18-22-1024x576.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Caveat';
+    font-size: 80px;
+}
+
+h2 {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    font-size: 20px;
+    border-radius: 100px;
+    background-color: white;
+    padding: 12px;
+    border: 1px solid rgb(104, 93, 93);
+    cursor: pointer;
+}
+button{
+    width: 120px;
+    height: 60px;
+    font-size: larger;
+}
+
